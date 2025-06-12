@@ -1,0 +1,153 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.5; /* 24px / 16px */
+    color: #2E2F42; /* головний текстовий колір */
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero__title {
+    font-size: 56px;
+    line-height: 1.07; /* 60px / 56px */
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .section-title {
+    font-size: 36px;
+    line-height: 1.11; /* 40px / 36px */
+    font-weight: 700;
+    text-align: center;
+    color: #2E2F42;
+  }
+
+  .card__title {
+    font-size: 20px;
+    line-height: 1.2; /* 24px / 20px */
+    font-weight: 500;
+    color: #2E2F42;
+  }
+
+  .card__text {
+    font-size: 16px;
+    line-height: 1.5; /* 24px / 16px */
+    font-weight: 400;
+    color: #434455;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .button:hover,
+.button:focus {
+  background-color: #404BBF;
+}
+
+.header {
+    padding: 24px 0;
+    background-color: #FFFFFF;
+  }
+
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav__list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .nav__link {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #2E2F42;
+  }
+
+  .hero {
+    background-color: #2E2F42;
+    padding: 188px 0;
+    text-align: center;
+  }
+
+  .services {
+    padding: 120px 0;
+  }
+  .services__title {
+    margin-bottom: 72px;
+  }
+
+  
+  .services__list {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+  }
+
+  .team {
+    background-color: #F4F4FD;
+    padding: 120px 0;
+  }
+
+  .team__title {
+    margin-bottom: 72px;
+  }
+
+  
+  .team__list {
+    display: flex;
+    gap: 24px;
+  }
+
+  
+  .team__card {
+    background-color: #FFFFFF;
+    padding: 32px 16px;
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+  }
